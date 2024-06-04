@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgreen;
+        }
+       header{
+        background-color: rgb(58, 180, 125);
+        padding: 15px;
+        margin: 15px;
+       }
+       nav{
+        background-color: rgb(162, 182, 182);
+        padding: 3px;
+       }
+       nav > a{
+        color: rgb(46, 30, 30);
+        text-decoration: none;
+        font-weight: bolder;
+        margin-right: 30px;
+        box-shadow: 1px 1px 1px rgb(0, 0, 0);
+        
+       }
+       nav> a :hover{
+        text-decoration: underline;
+
+       }
+       
+       main{
+        background-color: rgb(58, 180, 125);
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px 40px
+       }
+       article{
+        background-color: rgb(183, 183, 183);
+       }
+       article> aside{ 
+        background-color: rgb(144, 175, 159);
+       }
+       footer{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: rgb(126, 181, 153);
+        padding: 1px;
+        margin: 15px;
+       }
+       footer> p{
+        margin: 0px;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+
+        </nav>
+    </header>
+    <main>
+
+        <section id="assuntos"></section>
+        <section id="noticias"></section>
+        <article>
+            <h2>noticia sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa doloremque non ipsa expedita distinctio, saepe ad exercitationem eligendi rerum. Cupiditate aperiam accusamus necessitatibus porro provident consequatur aut beatae ea nostrum.</p>
+            <aside>
+                <p>artigo escrito por jaona</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>DESENVOLVIDO POR JOANA</p>
+    </footer>
+    
+</body>
+</html>

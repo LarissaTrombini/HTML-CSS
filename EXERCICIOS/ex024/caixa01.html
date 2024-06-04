@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body{
+            background-color: rgb(255, 255, 255);
+                }
+        h1{/*BOX - LEVEL*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/* FONTE DO H1*/
+            font-size: 20px;/* tamanho da fonte h1*/
+            text-align: center;/*centralizar fonte h1*/
+            background-color: rgb(18, 130, 141); /* determinar a cor do fundo da fonte h1*/
+            height: 300px;/* tamanho da caixa horizontal*/
+            width: 300px; /*tamanho da caixa vertical*/
+            border: 20px solid rgb(1, 79, 38);
+            /* nao simplificado(border-width: 10px; /*tamanho da borda
+            border-style: solid; /*estilo da borda
+            border-color: rgb(2, 100, 48); /*cor da borda)*/
+           padding: 10px 10px 10px 10px;
+            
+            /*nao simplificado(padding-top: 10px;  largura do topo espaço de dentro da caixa
+            padding-right: 10px;  /largura da direita do espaço de dentro da caixa
+            padding-bottom: 10px; / largura da parte de baixo espaço de dentro da caixa
+            padding-left: 10px;/ largura da esquerda do espaço de dentro da caixa*/
+            /*(margin: auto;) centralizar a caixa no meio)*/
+            margin: 40x 60px 40px 40px; /* auto centraliza!*/
+            /*nao simplificado(margin-top: 40px; (margem do lado de fora)
+            margin-right: 60px;
+            margin-bottom: 40px;
+            margin-left: 40px;*/
+            outline: 5px dashed red;
+            /* NAO SIMPLIFICADO(outline-width:  5px; PONTILHADO DEPOIS DA MARGEM DO LADO DE FORA
+            outline-style: dashed;
+            outline-color: red;)*/
+
+
+        }
+        a{/*INLINE-LEVEL*/
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            background-color: rgb(34, 133, 121);
+            text-align: center;
+            border-width: 5px;
+            border-style: solid ;
+            border-color: rgb(2, 100, 4)
+        }       
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixas</h1>
+    <p>paragrafos tambem sao exemplos de box level, mas os <a href="#">links sao exemplos de caixas inline-level</a>, vamos ver como tudo isso funciona <p>
+
+    
+</body>
+</html>

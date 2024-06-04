@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKS</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+        #= id
+        (.) class
+        : pseudo class
+        :: pseudo element
+        > clildren
+
+        
+        */
+
+
+
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(255, 21, 21);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{ /*muda de cor se o link ja foi visitado*/
+            color: rgb(4, 0, 255);
+        }
+        a:hover{ /* quando passar o mause em cima muda de cor*/
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{ /*quando clicar mudar de cor*/
+            color: aqua;
+        }
+        a::before{ /* coloca qualquer elemento antes do link*/
+            content:' ⇒';
+            color: rgb(241, 0, 0);
+        }
+        a::after{/* coloca qualquer elemento depois do link*/
+            content: ' ⇐';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(255, 3, 3);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Personalizando links
+    </h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=JGwWNGJdvx8"> Ed Sheeran - Shape of You</a> </li>
+        <li><a href="https://www.youtube.com/watch?v=euCqAq6BRa4">DJ Snake - Let Me Love You ft. Justin Bieber</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vDcxcPTxCg0">Billie Eilish - Lovely (Letra) com Khalid </a></li>
+    </ul>
+</body>
+</html>
