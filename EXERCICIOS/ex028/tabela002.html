@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            position: relative;
+
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        thead, tfoot{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        thead> tr> th{
+            position: sticky;
+            top: -1px;
+            background-color: black;
+
+        }
+        caption{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+           background-color: rgb(214, 206, 206);
+          
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgba(217, 207, 207, 0.9);
+        }
+
+    </style>
+</head>
+<body>
+    <H1>CRIANDO TABELAS GRANDER</H1>
+
+    <!--ANATOMIA PARA TABELAS GRANDES
+    TABLE
+        THEAD
+        TR, TD,TH
+        TBODY
+        TR, TD, TH
+        TFOOD
+        TR,TD,TH
+    -->
+        <!--TITULOS (TH)
+             DADOS (TD)
+             TH SCOPE = COL (ESTAR NA MESMA COLUNA)
+             TH SCOPE=ROW (ESTAR NA MESMA LINHA)-->
+
+    <table>
+        <caption>População Mundial</caption>
+        <thead>
+            <tr>
+                <th scope="col ">ESTADO</th>
+                <th scope="col">POPULAÇÃO</th>
+            </tr>
+
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>SAO PAULO</td>
+                <td>4515458</td>
+            </tr>
+            <tr>
+                <td>MINAS GERAIS</td>
+                <td>251436</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+            <tr>
+                <td>BAHIA</td>
+                <td>1594786</td>
+            </tr>
+
+
+
+
+        </tbody>
+        <tr>
+
+        </tr>
+
+        <tfoot>
+            <tr>
+                <th scope="row">TOTAL DE HABITANTES</th>
+                <td spellcheck="row">00000</td>
+            
+            
+            </tr>
+
+
+
+        </tfoot>
+
+    </table>
+    
+</body>
+</html>
