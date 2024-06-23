@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> media query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+   
+</head>
+<body>
+    <header>
+        <h1>MEU SITE</h1>
+        
+        <span id="icon" class="material-icons" ondblclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">opçao 1</a></li>
+                <li><a href="#">opçao 2</a></li>
+                <li><a href="#">opçao 3</a></li>
+                <li><a href="#">opçao 4</a></li>
+                <li><a href="#">opçao 5</a></li>
+
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>TESTANDO SITE</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet facilis veritatis architecto deserunt excepturi obcaecati ratione consectetur modi eligendi a tempora tenetur repellat ipsam perspiciatis vel, voluptatum deleniti doloremque dolor?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam obcaecati, fuga quis hic quia laudantium, placeat dolor dolores, id doloribus ratione. Saepe nostrum nesciunt fuga omnis eaque reprehenderit ipsam alias.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam incidunt voluptas rerum ut esse sit sequi magnam mollitia explicabo, reprehenderit voluptatem debitis at? Dignissimos quibusdam quos quidem autem fugit minus!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel eaque laudantium esse exercitationem iste ea mollitia quibusdam libero eligendi, officiis iure expedita reprehenderit saepe nulla quo! Perspiciatis ad cumque cum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ratione odit dolorum, maxime illum repellat sint delectus nam vel et exercitationem ipsam repellendus deserunt velit alias numquam neque aspernatur nostrum.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if ( itens.style.display=='block'){
+               itens.style.display='none'
+            } else{
+            itens.style.display='block'}
+
+        }
+    </script>
+    
+</body>
+</html>
